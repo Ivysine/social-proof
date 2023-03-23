@@ -8,18 +8,17 @@
   background: url("images/bg-pattern-top-mobile.svg") white;
   background-repeat: no-repeat;
   background-size: contain;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 55vh;
   margin: auto;
   color: hsl(300, 43%, 22%);
   padding: 10px;
   line-height: 1.5rem;
   text-align: center;
-  border: 2px solid red;
 }
 .header {
   width: 50vh;
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   padding: 20px;
   margin: 0 auto;
 }
@@ -36,6 +35,8 @@ h1 {
   margin-top: 20px;
 }
 .star-container {
+  width: 300px;
+  margin: 0 auto;
   height: 70px;
   margin-top: 20px;
   padding: 10px;
@@ -63,20 +64,26 @@ h1 {
   margin-top: 5px;
 }
 .user-reviews-cnt {
-  background-color: hsl(300, 43%, 22%);
+  background: url("images/bg-pattern-bottom-mobile.svg") mistyrose;
+  background-repeat: no-repeat;
   padding: 20px;
-  border-radius: 10px;
   margin-top: 30px;
   width: 375px;
   margin: 0 auto;
   margin-top: 40px;
   color: hsl(300, 24%, 96%);
+  border: 2px solid green;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 780px;
 }
 .comment-container {
   margin-top: 20px;
-  border: 2px solid green;
-  padding: 15px;
+  padding: 20px;
   line-height: 1.5rem;
   width: 300px;
   margin: 0 auto;
+  border-radius: 10px;
+  background-color: hsl(300, 43%, 22%);
 }
