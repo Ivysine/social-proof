@@ -8,16 +8,15 @@
   background: url("images/bg-pattern-top-mobile.svg") white;
   background-repeat: no-repeat;
   background-size: contain;
-  /* border: 2px solid red; */
-  width: 55vh;
+  width: 375px;
   margin: auto;
   color: hsl(300, 43%, 22%);
-  padding: 10px;
   line-height: 1.5rem;
   text-align: center;
+  /* border: 2px solid red; */
 }
 .header {
-  width: 50vh;
+  width: 350px;
   /* border: 2px solid yellow; */
   padding: 20px;
   margin: 0 auto;
@@ -32,18 +31,19 @@ h1 {
 }
 
 .header p {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 .star-container {
-  width: 300px;
+  width: 325px;
   margin: 0 auto;
-  height: 70px;
+  height: 80px;
   margin-top: 20px;
-  padding: 10px;
+  padding: 15px;
   font-weight: 700;
   border-radius: 10px;
   background-color: hsl(300, 24%, 96%);
 }
+
 .review-container p {
   margin-top: 5px;
 }
@@ -68,7 +68,6 @@ h1 {
   background-repeat: no-repeat;
   background-position: bottom right;
   padding: 20px;
-  margin-top: 30px;
   width: 375px;
   margin: 0 auto;
   margin-top: 40px;
@@ -76,14 +75,112 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 780px;
+  height: 920px;
+  /* border: 2px solid black; */
 }
 .comment-container {
   margin-top: 20px;
-  padding: 20px;
+  padding: 30px;
   line-height: 1.5rem;
-  width: 300px;
+  width: 325px;
   margin: 0 auto;
   border-radius: 10px;
   background-color: hsl(300, 43%, 22%);
+}
+.para {
+  margin-top: 20px;
+}
+
+@media (min-width: 1000px) {
+  .flex-container {
+    background: url("images/bg-pattern-top-desktop.svg");
+    background-repeat: no-repeat;
+    padding-top: 70px;
+    position: relative;
+  }
+  h1 {
+    margin-top: 80px;
+    line-height: 2.5rem;
+    width: 300px;
+    text-align: left;
+  }
+  .header {
+    width: 500px;
+    text-align: justify;
+  }
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .star-container {
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 430px;
+    padding: 30px;
+  }
+  .one {
+    position: relative;
+    right: 40px;
+  }
+  .three {
+    position: relative;
+    left: 40px;
+  }
+  h1 {
+    font-size: 45px;
+    margin-top: 0px;
+    width: 445px;
+    line-height: 3rem;
+  }
+  .header {
+    margin-top: 20px;
+  }
+  .headerP {
+    margin-left: 60px;
+  }
+
+  .rating-container {
+    margin-top: 40px;
+  }
+  .user-reviews-cnt {
+    background: url("images/bg-pattern-bottom-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 600px 1000px;
+    background-position: bottom right;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    height: 310px;
+    width: 1200px;
+  }
+  .comment-container {
+    width: 370px;
+  }
+  .card2 {
+    position: relative;
+    top: 20px;
+  }
+  .card3 {
+    position: relative;
+    top: 40px;
+  }
+  .paragraph1 {
+    position: relative;
+    right: 50px;
+  }
+  .paragraph2 {
+    position: relative;
+    right: 20px;
+  }
+  .paragraph3 {
+    position: relative;
+    right: 45px;
+  }
 }
