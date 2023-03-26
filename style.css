@@ -93,10 +93,7 @@ h1 {
 
 @media (min-width: 1000px) {
   .flex-container {
-    background: url("images/bg-pattern-top-desktop.svg");
-    background-repeat: no-repeat;
     padding-top: 70px;
-    position: relative;
   }
   h1 {
     margin-top: 80px;
